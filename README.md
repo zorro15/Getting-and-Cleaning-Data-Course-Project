@@ -1,12 +1,12 @@
 # Getting-and-Cleaning-Data-Course-Project
 
 This file describes the source files, the variables and script used for
-Getting and Cleaning Data Coursera Course
+Getting and Cleaning Data Coursera Course Project
 
 The data used in this Data Cleaning Assignment is from
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-www.smartlab.ws
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ==================================================================
 Source Data information
