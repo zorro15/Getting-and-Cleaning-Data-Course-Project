@@ -9,7 +9,7 @@ Version 1.0
 www.smartlab.ws
 
 ==================================================================
-+++SOURCE DATA INFORMATION+++++
+Source Data information
 ==================================================================
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
@@ -42,7 +42,6 @@ The following files are available for the train and test data. Their description
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ==================================================================
-+++++++++++GETTING AND CLEANING DATA PART+++++++++++
 Tidying the data for Getting and Cleaning Data Coursera Course
 ==================================================================
 1) Tiday.txt
