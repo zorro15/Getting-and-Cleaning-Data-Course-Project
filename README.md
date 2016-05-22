@@ -38,7 +38,7 @@ The dataset given for the assignment includes the following files:
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ==================================================================
-Tidying the data for Getting and Cleaning Data Coursera Course
+Tidying the data 
 ==================================================================
 1) Tidy.txt
 Tidy is a text file with tiday data , the source files are merged the data such that there is 1 value per column
