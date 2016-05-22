@@ -28,7 +28,6 @@ The source data is here:-
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The dataset given for the assignment includes the following files:
-
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
@@ -36,15 +35,12 @@ The dataset given for the assignment includes the following files:
 - 'train/y_train.txt': Training labels.
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
-
-The following files are available for the train and test data. Their descriptions are equivalent. 
-
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ==================================================================
 Tidying the data for Getting and Cleaning Data Coursera Course
 ==================================================================
-1) Tiday.txt
+1) Tidy.txt
 Tidy is a text file with tiday data , the source files are merged the data such that there is 1 value per column
 Also, 1 value per row and sensible column names.
 
@@ -58,11 +54,4 @@ Same applies to the train data set.
 
 3)CodeBook.rmd
 Describes the transformations of the source file to get the data is Tiday.txt
-
-Notes: 
-======
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
-
-
 
