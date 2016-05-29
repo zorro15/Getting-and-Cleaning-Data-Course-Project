@@ -1,10 +1,5 @@
 #This script is used to tidy the test data and the train data so that one big set of tidy data is achieved 
 
-#Variables in this script
-#Xtest is the measurements, Xtest2 is the mean and sd measurements only
-#ytest is the activity identifier
-#subjecttest is the volunteer / subject that carried out the activities
-
 
 #file downloaded and unzipped automatically from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile="getdata-projectfiles-UCIHARDataset.zip")
