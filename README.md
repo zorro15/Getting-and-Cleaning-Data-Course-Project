@@ -44,14 +44,17 @@ Tidying the data
 Tidy is a text file with tiday data , the source files are merged the data such that there is 1 value per column
 Also, 1 value per row and sensible column names.
 
-2) run_analysis_script.txt
-This script is used to tidy the test data and the train data so that one big set of tidy data is achieved 
-Variables in this script
+2) run_analysis.R
+This script is used to merge the files for the test data so that each measurement,
+activity name and subject(volunteer) forms a row
+Then merge the train data so that each measurement, activity name and subject (volunteer) forms a row 
+Both test and train data are merged so that one big set of tidy data is achieved 
+Variables in this script are described in CodeBook.md
 Xtest is the measurements, Xtest2 is the mean and sd measurements only
 ytest is the activity identifier
 subjecttest is the volunteer / subject that carried out the activities
-Same applies to the train data set.
+Xtrain is the measurements, Xtrain2 is the mean and sd measurements only
 
 3)CodeBook.rmd
-Describes the transformations of the source file to get the data is Tiday.txt
+Describes the transformations of the source file to get the data is Tidy.txt
 
