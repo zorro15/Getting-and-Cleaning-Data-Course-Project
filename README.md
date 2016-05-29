@@ -55,6 +55,6 @@ ytest is the activity identifier
 subjecttest is the volunteer / subject that carried out the activities
 Xtrain is the measurements, Xtrain2 is the mean and sd measurements only
 
-3)CodeBook.rmd
+3)CodeBook.md
 Describes the transformations of the source file to get the data is Tidy.txt
 
