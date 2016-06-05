@@ -72,5 +72,9 @@ TidyData<- rbindlist(list(TrainData,TestData))
 ##write.csv(TidyData, file = "TidyData.csv",row.names=FALSE)
 write.table(TidyData, "Tidy.txt", sep="\t", row.names = FALSE)
 
+#getting the average measurements per activity and subject id
+aggdata <-aggregate(TidyData, by=list(subjectId,activityName), FUN=mean, na.r=TRUE)
+#write the table to a txt file
+write.table(aggdata, "TidyAverageData.txt", sep="\t", row.names = FALSE)
 
 
